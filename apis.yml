@@ -1,7 +1,7 @@
 aid: liquid-ai
 url: https://raw.githubusercontent.com/api-evangelist/liquid-ai/refs/heads/main/apis.yml
 name: Liquid AI
-x-type: company
+kind: company
 description: >-
   Liquid AI is an MIT spinoff developing Liquid Foundation Models (LFMs) - a new class of
   generative models based on liquid neural networks. Offers LFM2 (2.6B / 8B-A1B / 24B-A2B)
