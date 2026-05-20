@@ -52,6 +52,10 @@ apis:
       - type: LEAP
         url: https://www.liquid.ai/
 common:
+  - type: GitHubOrganization
+    url: https://github.com/Liquid4All
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/liquid-ai-inc
   - type: Website
     url: https://www.liquid.ai/
   - type: Documentation
