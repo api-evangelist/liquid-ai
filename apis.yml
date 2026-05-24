@@ -68,6 +68,8 @@ common:
     url: rate-limits/liquid-ai-rate-limits.yml
   - type: FinOps
     url: finops/liquid-ai-finops.yml
+  - type: LLMsTxt
+    url: https://docs.liquid.ai/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
