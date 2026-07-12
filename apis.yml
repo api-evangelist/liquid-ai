@@ -52,6 +52,8 @@ apis:
       - type: LEAP
         url: https://www.liquid.ai/
 common:
+  - type: DomainSecurity
+    url: security/liquid-ai-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/Liquid4All
   - type: LinkedIn
