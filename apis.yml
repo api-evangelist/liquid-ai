@@ -30,7 +30,7 @@ tags:
   - On-Device
 created: '2026-05-08'
 modified: '2026-05-08'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: liquid-ai:platform
     name: Liquid AI Platform API
