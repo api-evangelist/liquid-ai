@@ -21,6 +21,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/liquid-ai.png
 tags:
+  - Artificial Intelligence
+  - LLM
+  - Inference
+  - Foundation Models
+  - Liquid Networks
+  - Edge AI
+  - On-Device
+tags_raw:
   - AI
   - LLM
   - Inference
@@ -43,6 +51,14 @@ apis:
     humanURL: https://docs.liquid.ai/
     baseURL: https://api.liquid.ai
     tags:
+      - Artificial Intelligence
+      - LLM
+      - Chat Completions
+      - Vision
+      - Audio
+      - Edge AI
+      - On-Device
+    tags_raw:
       - AI
       - LLM
       - Chat Completions
