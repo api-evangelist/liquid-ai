@@ -12,13 +12,13 @@ edges:
   - model-maker
   router_signals:
     model-maker:
-      models: 1
+      models: 2
       router_ids:
       - liquid
       tools_share: 1.0
       structured_output_share: 1.0
     inference-host:
-      models: 1
+      models: 2
       router_ids:
       - Liquid
       tools_share: 1.0
