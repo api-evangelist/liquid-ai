@@ -1,4 +1,4 @@
-# Liquid AI (liquid-ai)
+# Liquid AI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,43 +64,112 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Liquid AI is an MIT spinoff developing Liquid Foundation Models (LFMs) - a new class of generative models based on liquid neural networks. Offers LFM2 (2.6B, 8B-A1B, 24B-A2B) and LFM2.5 (350M, 1.2B variants) with text, vision, audio, and thinking modes. The LEAP platform enables LFM customization and on-device deployment.
+Liquid AI is an MIT spinoff developing Liquid Foundation Models (LFMs) - a new class of generative models based on liquid neural networks. Offers LFM2 (2.6B / 8B-A1B / 24B-A2B) and LFM2.5 (350M / 1.2B variants) with text, vision, audio, and thinking modes. The LEAP platform enables LFM customization and on-device deployment.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/liquid-ai/refs/heads/main/apis.yml)
+**Areas:** Artificial Intelligence · LLM · Inference · Foundation Models · Liquid Networks · Edge AI · On-Device
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=liquid-ai-api-evangelist&utm_content=repo)
+## Liquid AI on APIs.io
 
-## Type
-- **x-type:** company
+Everything profiled for Liquid AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/liquid-ai/](https://apis.io/providers/liquid-ai/)** — or go straight to one of the APIs or properties below.
 
-## Tags
-- AI, LLM, Inference, Foundation Models, Liquid Networks, Edge AI, On-Device
+### APIs (1)
 
-## APIs
-- **Liquid AI Platform API** — Hosted inference plus the LEAP customization/deployment platform and Liquid Playground. [Docs](https://docs.liquid.ai/) · [Pricing](https://www.liquid.ai/pricing) · [Hugging Face](https://huggingface.co/LiquidAI)
+- [Liquid AI Platform API](https://apis.io/apis/liquid-ai/platform/) — Hosted inference and customization API for the LFM family. Includes Liquid Playground and LEAP customization/deployment platform. LFM models also…
 
-### Models
-LFM2-2.6B, LFM2-8B-A1B, LFM2-24B-A2B (and Audio / Vision-Language / Thinking variants), LFM2.5-350M, LFM2.5-1.2B (Instruct / Thinking). Pricing (third-party inference, May 2026): LFM2-24B-A2B $0.03/M input · $0.12/M output. LFM2.5-1.2B-Instruct/Thinking available free on OpenRouter.
+### Published properties
 
-## Plans, Rate Limits, FinOps
-- [Plans](plans/liquid-ai-plans-pricing.yml)
-- [RateLimits](rate-limits/liquid-ai-rate-limits.yml)
-- [FinOps](finops/liquid-ai-finops.yml)
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
-- **Created:** 2026-05-08
-- **Modified:** 2026-05-08
+#### MCP servers (1)
 
-## Common Properties
+Model Context Protocol servers that expose the API to agents.
+
+- [Moved to /providers/liquid-ai/](https://apis.io/servers/liquid-ai/liquid-ai/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Liquid Ai Domain Security](https://apis.io/security/liquid-ai/liquid-ai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Liquid Ai Plans Pricing](https://apis.io/plans/liquid-ai/liquid-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Liquid Ai Rate Limits](https://apis.io/rate-limits/liquid-ai/liquid-ai-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Liquid Ai Finops](https://apis.io/finops/liquid-ai/liquid-ai-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.liquid.ai/)
 - [Documentation](https://docs.liquid.ai/)
-- [Hugging Face](https://huggingface.co/LiquidAI)
+- [Blog](https://www.liquid.ai/engineering)
+- [GitHub](https://github.com/Liquid4All)
 
-## Notes
-- Liquid AI's primary distribution is via Hugging Face open weights and on-device deployment through LEAP. Hosted-API consumption is also available through aggregators like OpenRouter.
-- No public OpenAPI spec discovered at the time of profiling.
+## API Evangelist rating
 
-## Maintainers
-**FN:** Kin Lane
+**Kin Score 15.3** — emerging · rubric 0.25.0 · scored 2026-10-23
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 27.4 |
+| Access clarity | 15.8 |
+
+**Agent readiness 9.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 5.5** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/liquid-ai/](https://apis.io/providers/liquid-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Liquid AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/liquid-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
